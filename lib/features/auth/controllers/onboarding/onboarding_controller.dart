@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shoppe/features/auth/screens/login/login_screen.dart';
 
 class OnBoardingController extends GetxController {
   final pageController = PageController();
@@ -24,7 +25,7 @@ class OnBoardingController extends GetxController {
       pageController.nextPage(
           duration: const Duration(milliseconds: 300), curve: Curves.easeInOut);
     } else {
-      // Get.to(LoginScreen());
+      Get.offAll(LoginScreen());
     }
   }
 
