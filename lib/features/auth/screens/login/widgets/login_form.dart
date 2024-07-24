@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shoppe/features/auth/screens/password_configuration/reset_password_screen.dart';
 import 'package:shoppe/features/auth/screens/signup/signup_screen.dart';
 import 'package:shoppe/utils/constants/sizes.dart';
 import 'package:shoppe/utils/constants/text_strings.dart';
@@ -36,9 +37,12 @@ class LoginForm extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Checkbox(
-                    value: true,
-                    onChanged: (value) {},
+                  SizedBox(
+                    width: 30,
+                    child: Checkbox(
+                      value: true,
+                      onChanged: (value) {},
+                    ),
                   ),
                   Text(
                     AppTexts.rememberMe,
@@ -46,10 +50,13 @@ class LoginForm extends StatelessWidget {
                   ),
                 ],
               ),
-              Text(
-                AppTexts.forgotPassword,
-                style: Get.theme.textTheme.labelMedium
-                    ?.copyWith(color: Get.theme.primaryColor),
+              TextButton(
+                onPressed: () {
+                  Get.to(const ResetPasswordScreen());
+                },
+                child: const Text(
+                  AppTexts.forgotPassword,
+                ),
               ),
             ],
           ),
