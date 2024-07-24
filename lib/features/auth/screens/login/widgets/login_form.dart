@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shoppe/features/auth/screens/login/signup/signup_screen.dart';
+import 'package:shoppe/features/auth/screens/signup/signup_screen.dart';
 import 'package:shoppe/utils/constants/sizes.dart';
 import 'package:shoppe/utils/constants/text_strings.dart';
 import 'package:shoppe/utils/device/device_utility.dart';
