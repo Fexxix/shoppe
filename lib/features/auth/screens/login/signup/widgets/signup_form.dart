@@ -7,6 +7,8 @@ import 'package:shoppe/utils/constants/sizes.dart';
 import 'package:shoppe/utils/constants/text_strings.dart';
 import 'package:shoppe/utils/device/device_utility.dart';
 
+import 'email_verification_screen.dart';
+
 class SignupForm extends StatelessWidget {
   const SignupForm({super.key});
 
@@ -102,7 +104,9 @@ class SignupForm extends StatelessWidget {
           SizedBox(
             width: AppDeviceUtils.getScreenWidth(),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(const EmailVerificationScreen());
+              },
               child: const Text(AppTexts.createAccount),
             ),
           ),

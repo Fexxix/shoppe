@@ -5,8 +5,8 @@ class AppTexts {
   static const String skip = "Skip";
   static const String done = "Done";
   static const String submit = "Submit";
-  static const String appName = "T-Store";
-  static const String tContinue = "Continue";
+  static const String appName = "Shoppe";
+  static const String appContinue = "Continue";
 
   // -- OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your product";
@@ -52,7 +52,7 @@ class AppTexts {
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
   static const String changeYourPasswordSubTitle =
       "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Password and Keep Your Account Protected.";
-  static const String confirmEmail = "Verify your email address!";
+  static const String confirmEmailTitle = "Verify your email address!";
   static const String confirmEmailSubTitle =
       "Congratulations! Your Account Awaits: Verify Your Email to Start Shopping and Experience a World of Unrivaled Deals and Personalized Offers.";
   static const String emailNotReceivedMessage =

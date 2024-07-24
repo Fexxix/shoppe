@@ -11,7 +11,7 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       theme: lightTheme,
       darkTheme: darkTheme,
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.light,
       home: OnboardingScreen(),
     );
   }
