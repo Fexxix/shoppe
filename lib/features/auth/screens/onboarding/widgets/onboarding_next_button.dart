@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shoppe/features/auth/controllers.onboarding/onboarding_controller.dart';
+import 'package:shoppe/features/auth/controllers/onboarding/onboarding_controller.dart';
 import 'package:shoppe/utils/constants/sizes.dart';
 import 'package:shoppe/utils/device/device_utility.dart';
 
